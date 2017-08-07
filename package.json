@@ -1,5 +1,5 @@
 {
-  "name": "web-tools",
+  "name": "wali-web-tools",
   "version": "0.1.0",
   "description": "🍔 Easy to drop or replace specified key in an array.",
   "main": "dist/tools.js",
