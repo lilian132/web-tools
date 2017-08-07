@@ -1,11 +1,11 @@
 {
-  "name": "vuea",
-  "version": "0.2.0",
+  "name": "web-tools",
+  "version": "0.1.0",
   "description": "🍔 Easy to drop or replace specified key in an array.",
-  "main": "dist/vuea.js",
+  "main": "dist/tools.js",
   "jsnext:main": "index.js",
   "scripts": {
-    "build": "rollup -c && uglifyjs dist/vuea.js > dist/vuea.min.js",
+    "build": "rollup -c && uglifyjs dist/tools.js > dist/tools.min.js",
     "test": "npm run build && eslint index.js __tests__ && jest"
   },
   "files": [
@@ -20,10 +20,10 @@
     "remove",
     "replace"
   ],
-  "author": "qingwei-li <cinwell.li@gmail.com> (https://github.com/QingWei-Li)",
+  "author": "wali <245943272@qq.com> (https://github.com/lilian132)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/QingWei-Li/vuea.git"
+    "url": "git+https://github.com/lilian132/web-tools.git"
   },
   "license": "MIT",
   "devDependencies": {

@@ -2,9 +2,9 @@ import buble from 'rollup-plugin-buble'
 
 export default {
   entry: 'index.js',
-  dest: 'dist/vuea.js',
+  dest: 'dist/tools.js',
   format: 'umd',
-  moduleName: 'Vuea',
+  moduleName: 'tools',
   exports: 'named',
   plugins: [buble()]
 }
